@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "Ubuntu", sans-serif;
+}
+
+header{
+    padding: 30px;
+    background-color:#868b5b;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header div i{
+    color: #000000;
+    font-size: 50px;
+}
+
+header div nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header div nav ul li a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+}
+
+header div nav ul li a:hover{
+    color: #62f7b4;
+}
+
+#section-01{
+    padding:180px;
+    background-color:#c4c9a9;
+}
+
+.div-imoveis div{
+    width: 200px;
+    height: 300px;
+    background-color: #ecfef6;
+    border-radius: 20px;
+
+}
+
+.div-imoveis {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 35px;
+    margin-bottom: 30px;
+}
+
+.div-imoveis .div-1{
+    background-image: url(img/Casa\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.div-imoveis .div-2 {
+    background-image:url(img/Casa\ 2.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.div-imoveis .div-3 {
+    background-image:url(img/Casa\ 3.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.div-imoveis .div-3 {
+    background-image:url(img/Casa\ 3.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.div-imoveis .div-4 {
+    background-image:url(img/Casa\ \ 4.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.div-imoveis .div-5 {
+    background-image:url(img/Casa\ 5.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.div-imoveis .div-6 {
+    background-image:url(img/Casa\ 6.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+/* FIM DA SESSÂO-01 */
+
+
+
+/* INICIO DA SESSÂO-2 */
+#section-02 {
+    padding: 180px;
+    background-image: url(img/buildings-1850129_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#section-02 div{
+    width:300px;
+    height: 450px;
+    border-radius: 25px;
+    background-color:#c4c9a9b7;
+}
+
+/* FIM DA SESSÂO-02 */
+
+
+
+
+/* INICIO DA SESSÂO-03 */
+#section-03{
+    padding: 180px;
+    background-color: rgb(196, 201, 169)
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#section-03 div{
+    width: 350px;
+    height: 300px;
+    background-color: #ffffff;
+    padding: 25px;
+}
+
+/* FIM DA SESSÂO-03 */
+
+
+
+
+
+
+
+/* INICIO DO FOOTER */
+
+footer{
+    padding: 30px;
+    background-color:#868b5b;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.div-img-footer i{
+    color: #000000;
+    font-size: 50px;
+}
+
+.div-icon-footer i{
+    background-color: #000000;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    margin: 10px;
+}
+
+.div-list-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+
